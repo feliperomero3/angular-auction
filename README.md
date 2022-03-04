@@ -1,6 +1,8 @@
 # ngAuction
 
-Based on the Web Application built in the Book ['Angular Development with Typescript Second Edition'][1] by Yakov Fain and Anton Moiseev (Manning, 2019).
+[![SonarCloud][1]][2]
+
+Based on the Web Application built in the Book ['Angular Development with Typescript Second Edition'][3] by Yakov Fain and Anton Moiseev (Manning, 2019).
 
 This application corresponds to the ngAuction application built from Chapter 2 and onwards.
 
@@ -29,4 +31,6 @@ _Note_: this project was generated with Angular CLI 12. The book used an older v
 
 Copyright (c) 2022 Felipe Romero
 
-[1]: https://www.manning.com/books/angular-development-with-typescript-second-edition
+[1]: https://sonarcloud.io/images/project_badges/sonarcloud-white.svg
+[2]: https://sonarcloud.io/summary/new_code?id=feliperomero3_angular-auction
+[3]: <https://www.manning.com/books/angular-development-with-typescript-second-edition>
