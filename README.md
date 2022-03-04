@@ -1,12 +1,12 @@
 # ngAuction
 
-[![SonarCloud][1]][2]
+[![angular-auction-ci][4]][5] [![Quality Gate Status][1]][2]
 
 Based on the Web Application built in the Book ['Angular Development with Typescript Second Edition'][3] by Yakov Fain and Anton Moiseev (Manning, 2019).
 
 This application corresponds to the ngAuction application built from Chapter 2 and onwards.
 
->Sample online auction application where people can browse and search for products.  
+>Sample online auction application where people can browse and search for products, see a list of featured products, view details for a specific product, and monitor bidding by other users.
 When the results are displayed, the user can select a product and
 bid on it.  
 The information on the latest bids will be pushed by the server to all users subscribed to such notifications.
@@ -31,6 +31,8 @@ _Note_: this project was generated with Angular CLI 12. The book used an older v
 
 Copyright (c) 2022 Felipe Romero
 
-[1]: https://sonarcloud.io/images/project_badges/sonarcloud-white.svg
+[1]: https://sonarcloud.io/api/project_badges/measure?project=feliperomero3_angular-auction&metric=alert_status
 [2]: https://sonarcloud.io/summary/new_code?id=feliperomero3_angular-auction
-[3]: <https://www.manning.com/books/angular-development-with-typescript-second-edition>
+[3]: https://www.manning.com/books/angular-development-with-typescript-second-edition
+[4]: https://github.com/feliperomero3/angular-auction/actions/workflows/angular-auction-ci.yml/badge.svg
+[5]: https://github.com/feliperomero3/angular-auction/actions/workflows/angular-auction-ci.yml
