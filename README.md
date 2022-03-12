@@ -25,13 +25,15 @@ _Note_: this project was generated with Angular CLI 12. The book used an older v
     1. Place the certificate file `server.crt` and the private key file `server.key` in the application's root, that is, the `ngAction` folder. ['Quickly generate a development certificate with OpenSSL'][6]
 1. Open a terminal in the ngAuction directory and execute `npm install` to download and install all the dependencies.
 1. After the previous command finishes run `npm start`.
-1. Open your browser and go to <http://localhost:4200>.
+1. Open your browser and go to <https://localhost:4200>.
+
+![Home screen](/.github/assets/cover.png)
 
 ## License
 
 [MIT License](./LICENSE)
 
-Copyright (c) 2022 Felipe Romero
+Copyright &copy; 2022 Felipe Romero
 
 [1]: https://sonarcloud.io/api/project_badges/measure?project=feliperomero3_angular-auction&metric=alert_status
 [2]: https://sonarcloud.io/summary/new_code?id=feliperomero3_angular-auction
