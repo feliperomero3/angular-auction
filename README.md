@@ -11,7 +11,7 @@ When the results are displayed, the user can select a product and
 bid on it.  
 The information on the latest bids will be pushed by the server to all users subscribed to such notifications.
 
-_Note_: this project was generated with Angular CLI 12. The book used an older version.
+_Note_: this project was generated with Angular CLI 12. The book uses an older version.
 
 ## Prerequisites
 
