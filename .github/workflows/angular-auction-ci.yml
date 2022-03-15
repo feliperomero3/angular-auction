@@ -31,7 +31,13 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
+      - run: npm run test-ci
       - run: npm run build
+      - name: Upload test artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ngAuction-node${{ matrix.node-version }}-coverage
+          path: ngAuction/coverage/ngAuction
       - name: Upload build artifact
         uses: actions/upload-artifact@v2
         with:
