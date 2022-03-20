@@ -27,6 +27,8 @@ _Note_: this project was generated with Angular CLI 12. The book uses an older v
 1. After the previous command finishes run `npm start`.
 1. Open your browser and go to <https://localhost:4200>.
 
+## Screen capture
+
 ![Home screen](/.github/assets/cover.png)
 
 ## License
