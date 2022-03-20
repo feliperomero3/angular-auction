@@ -23,6 +23,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ env.NODE_VERSION }}
+          cache-dependency-path: 'ngAuction'
         env:
           NODE_VERSION: '14.x'
       - run: npm ci
