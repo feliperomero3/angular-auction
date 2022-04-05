@@ -1,10 +1,13 @@
-<div class="thumbnail">
-  <img class="img-fluid" src="https://placehold.co/300x150" alt="product">
+<div *ngIf="product" class="thumbnail">
+  <img class="img-fluid w-100" src="https://placehold.co/250x150" alt="product">
   <div class="caption">
-    <h4 class="float-right">{{ product?.price | currency }}</h4>
+    <h4 class="float-right">{{ product.price | currency }}</h4>
     <h4>
-      <a [routerLink]="['products', product?.id]">{{ product?.title }}</a>
+      <a [routerLink]="['products', product.id]">{{ product.title }}</a>
     </h4>
     <p>{{ product?.description }}</p>
+  </div>
+  <div class="ratings">
+    <nga-stars [rating]="product.rating"></nga-stars>
   </div>
 </div>

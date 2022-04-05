@@ -1,0 +1,9 @@
+:host {
+  display: block;
+}
+.material-icons svg {
+  display: inline-block;
+  font-size: inherit;
+  height: 16px;
+  width: 16px;
+}
