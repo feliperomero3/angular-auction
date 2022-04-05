@@ -1,6 +1,6 @@
 export const products = [
   {
-    'id': 0,
+    'id': 1,
     'title': 'First Product',
     'price': 24.99,
     'rating': 4.3,
@@ -8,7 +8,7 @@ export const products = [
     'categories': ['electronics', 'hardware']
   },
   {
-    'id': 1,
+    'id': 2,
     'title': 'Second Product',
     'price': 64.99,
     'rating': 3.5,
@@ -16,7 +16,7 @@ export const products = [
     'categories': ['books']
   },
   {
-    'id': 2,
+    'id': 3,
     'title': 'Third Product',
     'price': 74.99,
     'rating': 4.2,
@@ -24,7 +24,7 @@ export const products = [
     'categories': ['electronics']
   },
   {
-    'id': 3,
+    'id': 4,
     'title': 'Fourth Product',
     'price': 84.99,
     'rating': 3.9,
@@ -32,7 +32,7 @@ export const products = [
     'categories': ['hardware']
   },
   {
-    'id': 4,
+    'id': 5,
     'title': 'Fifth Product',
     'price': 94.99,
     'rating': 5,
@@ -40,7 +40,7 @@ export const products = [
     'categories': ['electronics', 'hardware']
   },
   {
-    'id': 5,
+    'id': 6,
     'title': 'Sixth Product',
     'price': 54.99,
     'rating': 4.6,

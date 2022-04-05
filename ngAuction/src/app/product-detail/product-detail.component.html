@@ -1,0 +1,11 @@
+<div *ngIf="product" class="thumbnail">
+  <img class="img-fluid w-100" src="https://placehold.co/800x300" alt="product">
+  <div>
+    <h4 class="float-right">{{ product.price | currency }}</h4>
+    <h4>{{ product.title }}</h4>
+    <p>{{ product.description }}</p>
+  </div>
+  <div class="ratings">
+    <nga-stars [rating]="product.rating"></nga-stars>
+  </div>
+</div>
